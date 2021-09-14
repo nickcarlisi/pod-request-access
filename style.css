@@ -57,7 +57,6 @@ body {
   display: block;
   margin: 0 auto;
   padding-bottom: 3.5em;
-  /* border: 1px solid red; */
   /* padding-bottom: 3em; */
 }
 
@@ -66,7 +65,7 @@ h1 {
   text-transform: uppercase;
   font-weight: 300;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.625rem;
   line-height: 1.6em;
 }
 
@@ -77,7 +76,7 @@ span {
 p {
   text-align: center;
   padding-top: 1.6em;
-  font-size: 0.9rem;
+  font-size: 0.938rem;
   line-height: 1.8em;
 }
 
@@ -100,6 +99,7 @@ li img {
 form {
   width: 100%;
   margin-top: 1em;
+  
 }
 
 input {
@@ -110,13 +110,16 @@ input {
   padding: 1em 2em;
   color: #fff;
   font-weight: 900;
+  font-size: .875rem;
 }
 
 input:focus {
   outline: none;
+  
 }
 
-button {
+button { 
+  font-size: .875rem;
   font-weight: 900;
   background-color: var(--green);
   border: none;
@@ -136,7 +139,6 @@ button:hover {
   color: red;
   padding: 0;
   padding-top: 1em;
-  padding-left: 2em;
   visibility: hidden;
 }
 
@@ -182,7 +184,7 @@ button:hover {
   }
 
   .container h1 {
-    font-size: 2.8rem;
+    font-size: 3rem;
     text-align: left;
     line-height: 1.2em;
     padding-top: 2em;
@@ -191,7 +193,7 @@ button:hover {
   .container p {
     width: 70%;
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 1.125rem;
     padding-bottom: 1.2em;
   }
 
@@ -214,6 +216,16 @@ button:hover {
 
   button {
     margin: 0.5em;
+    border-radius: 100px;
+    width: 70%;
+  }
+
+  button:focus {
+    border: none;
+  }
+
+  .error-msg {
+    padding-left: 2em;
   }
 
   ul {
@@ -244,12 +256,19 @@ button:hover {
   .container {
     width: 60%;
     max-width: 1600px;
-    margin-left: 8em;
+    /* margin-left: 8em; */
     margin-top: 3em;
   }
 
+  .container h1 {
+    font-size: 3.25rem;
+    padding-top: 1em;
+  }
+
+  
+
   .logo {
-    margin-left: 8em;
+    /* margin-left: 8em; */
     margin-top: 6em;
   }
 
